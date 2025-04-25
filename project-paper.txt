@@ -1,0 +1,70 @@
+GreenPulse: A Home Energy Monitoring System
+
+Abstract—Household electricity usage is increasing, leading to higher costs and environmental concerns. Existing energy management systems often lack real-time insights and effective control mechanisms. GreenPulse is a proposed monitoring system that simulates real-time energy data using CSV inputs while applying Python-based threshold anomaly detection. Future integration with low-cost IoT devices like Arduino sensors is planned to enhance functionality. This project aims to provide a cost-effective, privacy-conscious alternative to cloud-dependent monitoring solutions, with projected energy savings of 10–20%.
+
+# Abstract is good
+# change the percentage based on data analysis and invert the percentage like a framing effect
+
+Keywords—Home energy monitoring, IoT, Python, CSV simulation, anomaly detection, energy efficiency.
+
+I. Introduction
+
+The increasing demand for household electricity contributes to higher utility expenses and environmental strain due to inefficient energy use. Many existing monitoring systems focus on basic data logging without providing real-time alerts or actionable insights. While cloud-based AI solutions exist, they often require substantial resources, making them impractical for average consumers.
+
+Research highlights the importance of real-time energy feedback in reducing unnecessary consumption. However, many current systems lack integrated anomaly detection or rely on external cloud processing, raising privacy and latency concerns.
+
+GreenPulse seeks to address these issues by offering a localized, efficient energy monitoring system using CSV-simulated real-time data and threshold-based alerts. Developed in Python, the system is designed to be scalable, with future plans to incorporate IoT sensors for real-world application. By minimizing complexity and cloud dependency, GreenPulse provides a more accessible and cost-effective solution for household energy management.
+
+# Introduction is good but must also use numbers for reference IEEE 
+
+
+II. Review of Related Literature
+
+A. IoT-Based Energy Monitoring Systems  
+Onay et al. [1] introduced a smart home monitoring system using IoT sensors and secure data-sharing mechanisms. While their system efficiently collects real-time data, it lacks built-in anomaly detection or automated suggestions. This highlights the need for monitoring solutions that offer not just data tracking but also actionable feedback.
+
+B. AI-Powered Energy Consumption Analysis  
+Ma et al. [2] explored an AI-driven home energy management system capable of predicting consumption patterns with high accuracy. However, the reliance on complex machine learning models and cloud computing makes it less viable for typical residential settings. This demonstrates the necessity of simpler, cost-effective alternatives that do not depend on extensive cloud infrastructure.
+
+C. IoT and Load Scheduling for Energy Optimization  
+Priya and Kannammal [3] proposed an IoT-based system that optimizes energy use through automated load scheduling, reducing peak energy demand by 18%. However, its dependence on cloud processing raises privacy and latency concerns, reinforcing the benefits of localized data analysis.
+
+D. Addressing the Gaps  
+GreenPulse integrates key strengths from these studies while overcoming their limitations. By simulating real-time monitoring with CSV data and employing localized threshold-based anomaly detection, it eliminates the need for costly AI models and cloud computing. This results in a secure, user-friendly system that provides timely alerts and practical insights for energy conservation.
+
+E. Need for GreenPulse  
+Reports indicate that inefficient energy use leads to significant waste. The American Council for an Energy-Efficient Economy estimates that 10–30% of household electricity consumption could be avoided with proper monitoring [4]. Additionally, market research suggests that 70% of consumers are interested in energy monitoring if it results in cost savings [5]. These insights emphasize the need for an accessible, affordable solution like GreenPulse.
+
+# All these samples of products must be on a paragraph format and must use connective phrases
+
+IV. Methodology
+
+The GreenPulse system will be developed using a Python-based simulation that emulates real-time household energy monitoring. The simulation leverages Comma-Separated Values (CSV) files as input, where each row represents a timestamped data entry for specific household appliances. This simulates sensor-driven data collection without the need for physical hardware during the initial development phase.
+
+Each CSV file is parsed at fixed intervals to imitate continuous data flow. An anomaly detection module is integrated, employing a self-learning threshold-based algorithm that adjusts the predefined consumption limits for each appliance over time. As the system continuously monitors energy usage patterns, the threshold dynamically adapts based on historical data and emerging consumption trends. When usage exceeds these adaptive thresholds, the system flags the data and generates an alert to indicate abnormal behavior. Additionally, an AI module will analyze flagged anomalies and suggest corrective actions to optimize energy usage, offering personalized recommendations for reducing unnecessary consumption.
+
+# Methodology must be elaborate
+
+References
+
+[1] A. Onay et al., "A Smart Home Energy Monitoring System Based on IoT and Secure Data Sharing," Journal of Computer and Communications, vol. 11, no. 1, pp. 123-131, 2023.  
+[2] Y. Ma et al., "Smart Home Energy Management System Using AI," Journal of Sensors, vol. 32, no. 4, pp. 215-223, 2021.  
+[3] M. B. Priya and K. E. Kannammal, "Intelligent Home Energy Management with IoT-Based Load Scheduling," ICCCI Conference, 2021, pp. 97-104, doi: 10.1109/ICCCI50826.2021.9402524.  
+[4] American Council for an Energy-Efficient Economy, "Energy Efficiency and Consumption: The Rebound Effect - A Survey," ACEEE, 2020.  
+[5] Parks Associates, "Smart Energy at Home: Business Models and Adoption," Parks Associates Research, 2023.  
+
+# 10 to 15 references
+
+
+new points
+
+
+1. GreenPulse will be a locally-hosted, real-time energy monitoring system with learning capabilities using autoencoders
+2. It will focus on accuracy compared to similar projects rather than making specific energy saving claims
+3. The core functionality involves connecting IoT devices to detect energy consumption and provide anomaly insights
+4. This will be presented as a complete project that's being developed incrementally
+5. CSV data will be used for development/testing, with focus on the AI component
+6. The target user is an average household consumer who wants to make informed decisions about device energy usage
+
+
+
